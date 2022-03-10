@@ -150,7 +150,6 @@ const displayLikedPosts = () => {
     const div = createPost(post);
     document.getElementById("liked-posts").appendChild(div);
   });
-  displayReportedPosts()
 };
 
 const displayReportedPosts = () => {
