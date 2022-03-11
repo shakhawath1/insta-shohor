@@ -61,7 +61,7 @@
         </div>
     </main>
     <!-- Question Section -->
-    <section class="container my-5">
+    <section id="question-answer" class="container my-5">
         <h2 class="text-center my-5">Frequently Asked Questions</h2>
         <div class="row g-2">
             <div class="accordion col-sm-12 col-md-12 col-lg-12" id="accordionExample">
@@ -69,15 +69,23 @@
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            What does JavaScript works?
+                            How does JavaScript works?
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Event design and event planning work hand in hand to deliver a successful event.Events
-                            by Knight offer tailor made events. This means we incorporate both event design and
-                            event planning to create that perfect event.
+                            JavaScript is a high-level interpreted programming language. It runs inside an Internet
+                            browser, read the file line-by-line top to bottom. Like a waterfall. Browser use V8
+                            engine
+                            for execute a JavaScript file. When a web page load in a browser, first the HTML and CSS
+                            file are load. After the loading browser create DOM for execute the JavaScript file. By
+                            creating the
+                            DOM being updated by JavaScript code and rendere by the browser. The order here is
+                            important. If the JavaScript did not wait for the HTML and CSS loading to finish, it
+                            would
+                            not be
+                            able to change the DOM elements.
                         </div>
                     </div>
                 </div>
@@ -91,8 +99,11 @@
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Our team is very hard worker and expert. They are so fast and active. They arrange any
-                            event very quickly.
+                            An event loop is a process that waits for the call stack to be cleared before returning
+                            calls from the task stack to the call stack. When the stack is cleared, the event node
+                            is
+                            activated. Check the task queue for available callback calls. If there is, it pushes the
+                            call stack, waits for the call stack to be freed again, and repeats the same process.
                         </div>
                     </div>
                 </div>
@@ -106,9 +117,19 @@
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Our refund and cancellation policy is very essy for all. Before 7 days you email us for
-                            cancellation. We confirm your cancellation replay by email and after 7 working days we
-                            refund to you.
+                            Localstorage and sessionstorage are also similar, but there are some differences between
+                            them.Local storage means Clint side store data by cookie, but sessionstorage doesn't
+                            follow
+                            the rule. When the page session ends the data of sessionstorage is cleared, but the
+                            localstorage doesn't expire. If open a new tab, tha sessionstorage create a new session
+                            for
+                            the particular tab, but localstoragedoesn doesn't create a new session. localstorage
+                            stored data for particular user for a long time, but sessionstorage stored data for
+                            particular session. Localstorage stored the data of all activites the user, but
+                            sessionstorage only follow the moment of session.The localstorage available size is 5MB.
+                            We
+                            can edit, update or remove the data of
+                            both storage.
                         </div>
                     </div>
                 </div>
